@@ -1,0 +1,12 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.li-button {
+  background-color: rgba(223, 81, 81, 0.87);
+  display: flex;
+  width: 40px;
+  margin-right: 22px;
+}

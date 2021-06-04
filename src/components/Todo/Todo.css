@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+  height: 3rem;
+  width: 60%;
+  padding-left: 22px;
+  margin-bottom: 5px;
+  background-color: rgb(136, 228, 228);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+li:nth-child(2n) {
+  background-color: rgb(255, 255, 255);
+}
+.done {
+  text-decoration: line-through;
+}
+.not-done {
+  text-decoration: none;
+}

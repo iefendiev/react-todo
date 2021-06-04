@@ -1,0 +1,17 @@
+input {
+  height: 3rem;
+  width: 40%;
+  padding: 0 20px;
+}
+
+button {
+  height: 3.4rem;
+  width: 8rem;
+}
+
+input,
+button {
+  font-size: 18px;
+
+  border-radius: 10px;
+}
